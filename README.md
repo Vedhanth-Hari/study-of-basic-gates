@@ -1,4 +1,7 @@
 ### study-of-basic-gates
+Name: H.Vedhanth
+
+Reg No: 24003775
 
 **AIM:** 
 
@@ -66,14 +69,40 @@ Y= A⊕B
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
+module digital(a,b,c1,c2,c3,c4,c5,c6,c7);
+
+
+input a,b;
+
+output c1,c2,c3,c4,c5,c6,c7;
+
+not g1(c1,a);
+
+and g2(c2,a,b);
+
+or g3(c3,a,b);
+
+nand g4(c4,a,b);
+
+nor g5(c5,a,b);
+
+xor g6(c6,a,b);
+
+xnor g7(c7,a,b);
+
+endmodule
+
  Developed by: RegisterNumber: 
  
 **Logic symbol & Truthtable**
+ ![Screenshot 2024-12-21 104802](https://github.com/user-attachments/assets/c55449eb-5834-42ff-b3fd-d9f5e869739b)
+
 
 **RTL realization Output:** 
 
-**RTL**
+![image](https://github.com/user-attachments/assets/479f7cb8-23e5-49b7-9938-0295e9499011)
+
 
 **Result:**
-
+This experiment is verified using the Quartus 
 
